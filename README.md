@@ -1,8 +1,5 @@
 # M-QAM Adaptive Modulation and Coding (AMC) over Rayleigh Fading
 
-![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-blue?style=flat-square&logo=mathworks)
-![Simulink](https://img.shields.io/badge/Simulink-DSP-orange?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 
 This repository contains a complete Digital Signal Processing (DSP) pipeline and closed-loop feedback simulation for a **5G-compliant Adaptive M-QAM receiver**. It demonstrates the real-time dynamic switching of modulation orders (4-QAM, 16-QAM, 64-QAM) in response to a fluctuating Rayleigh fading channel, ensuring a target Bit Error Rate (BER) is maintained while maximizing throughput.
 
@@ -16,7 +13,7 @@ The core of this project is a multi-rate Simulink model simulating a complete ph
 * **Pulse Shaping:** Transmit and Receive Root Raised Cosine (RRC) filters with an upsampling factor of 8.
 * **Fading Channel:** Rayleigh SISO multipath fading block simulating real-world vehicular/pedestrian mobility with a specific Doppler shift.
 * **AWGN Noise Injection:** Mathematically rigorous noise addition that accounts for upsampling and variable bits-per-symbol (converting $E_b/N_0$ to Sample SNR).
-* **Zero-Forcing (ZF) Equalizer:** Reverses phase rotations and amplitude distortions caused by the Rayleigh channel ($R(t)/h(t)$).
+* **Zero-Forcing (ZF) Equalizer:** Reverses phase rotations and amplitude distortions caused by the Rayleigh channel (R(t)/h(t)).
 * **Delay Synchronization:** Precise frame-buffer alignment dynamically calculated to match the RRC filter taps for flawless BER calculation.
 
 ---
