@@ -70,3 +70,10 @@ This script simulates a true 5G mobile environment. Instead of maintaining a sta
 3. To view the standard performance curves, run:
    ```matlab
    runsim
+
+
+ ## By
+
+**Namit Kumar Sahu** Roll Number: 230102059  
+B.Tech in Electronics and Communication Engineering  
+Indian Institute of Technology Guwahati (IITG)
