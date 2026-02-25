@@ -7,7 +7,7 @@ This repository contains a complete Digital Signal Processing (DSP) pipeline and
 
 The core of this project is a multi-rate Simulink model simulating a complete physical layer (PHY) communications link. 
 
-![Simulink Block Diagram](model.png)
+![Simulink Block Diagram](Model.png)
 
 ### Key DSP Components:
 * **Pulse Shaping:** Transmit and Receive Root Raised Cosine (RRC) filters with an upsampling factor of 8.
@@ -25,7 +25,7 @@ This repository features two distinct MATLAB runner scripts that interface with 
 ### 1. Multi-Rate BER Performance Sweep (`runsim.m`)
 This script sweeps the channel from a noisy state to a clean state (14 dB to 44 dB) and plots the simulated hardware performance against theoretical mathematical baselines.
 
-![BER vs SNR Curves](ber_vs_snr.png)
+![BER vs SNR Curves](BER_vs_SNR.png)
 
 **Theoretical Highlights:**
 * **Amplitude Restoration:** Compensates for the power reduction caused by the 8x upsampling in the TX RRC filter by applying a $\sqrt{8}$ gain, ensuring the Demodulator's decision boundaries receive exactly 1 Watt of signal power.
@@ -34,7 +34,7 @@ This script sweeps the channel from a noisy state to a clean state (14 dB to 44 
 ### 2. 5G Mobility: Closed-Loop AMC (`Adaptive.m`)
 This script simulates a true 5G mobile environment. Instead of maintaining a static modulation, it acts as a **Link Adaptation Supervisor**, monitoring the channel and shifting gears in real-time.
 
-![Adaptive AMC Dashboard](adaptive_plot.png)
+![Adaptive AMC Dashboard](Adaptive_Plot.png)
 
 **How the Algorithm Works:**
 1. **The Environment (Top Plot):** The simulated user moves through the world, causing the Signal-to-Noise Ratio to drop into deep fades and rise into clear peaks.
