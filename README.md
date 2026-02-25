@@ -51,7 +51,7 @@ This script simulates a true 5G mobile environment. Instead of maintaining a sta
 
 | Adaptive Gear Shifting | Fading Noise Variance |
 | :---: | :---: |
-| <video src="gif_adaptive.mp4" width="400" controls></video> | <video src="gif_constellation.mp4" width="400" controls></video> |
+| https://github.com/user-attachments/assets/bfea6864-f6a1-4469-836f-273b4fcc2b1c | https://github.com/user-attachments/assets/10b61ae0-5797-44fd-b499-cdf6db363c49 |
 | *Visualizing the constellation dynamically adapting as the algorithm shifts between 4-QAM, 16-QAM, and 64-QAM.* | *Observing the noise variance swallow the decision boundaries during a simulated signal drop.* |
 
 ---
