@@ -59,7 +59,7 @@ This script simulates a true 5G mobile environment. Instead of maintaining a sta
 ##  Requirements & Usage
 
 ### Prerequisites
-* **MATLAB** (Recommended R2023a or newer)
+* **MATLAB** (Recommended R2025b or newer)
 * **Simulink**
 * **Communications Toolbox**
 * **DSP System Toolbox**
