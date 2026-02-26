@@ -1,4 +1,4 @@
-# M-QAM Adaptive Modulation and Coding (AMC) over Rayleigh Fading
+# QAM Adaptive Modulation and Coding (AMC) over Rayleigh Fading
 
 
 This repository contains a complete Digital Signal Processing (DSP) pipeline and closed-loop feedback simulation for a **5G-compliant Adaptive M-QAM receiver**. It demonstrates the real-time dynamic switching of modulation orders (4-QAM, 16-QAM, 64-QAM) in response to a fluctuating Rayleigh fading channel, ensuring a target Bit Error Rate (BER) is maintained while maximizing throughput.
